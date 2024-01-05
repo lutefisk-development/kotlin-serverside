@@ -30,6 +30,14 @@ fun main() {
      * Any type
      * Can hold all datatypes
      */
-     var number2: Any = 10
+    var number2: Any = 10
     var name2: Any = "Hello"
+
+
+    /**
+     * Type Inference means that Kotlin will determine the type.
+     * We don't actually have to explicitly define the type
+     */
+    var name3 = "Some Name"
+    var number3 = 123
 }
