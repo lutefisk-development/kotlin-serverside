@@ -1,5 +1,7 @@
 package org.example
 
+const val PI = 3.14
+
 fun main() {
     /**
      * To declare a variable use the keywords:
@@ -40,4 +42,27 @@ fun main() {
      */
     var name3 = "Some Name"
     var number3 = 123
+
+
+    /**
+     * val Keyword
+     */
+    // var keyword is mutable
+    var brandVar = "Google"
+    brandVar = "Tesla"
+
+    // val keyword is immutable
+    val brandVal = "Toyota"
+
+    // Will get error here: "Val cannot be reassigned"
+    //brandVal = "BMW"
+
+
+    /**
+     * const keyword
+     *
+     * will NEVEER change. Must be declared outside functions
+     * The value is known before code execution!
+     */
+
 }
