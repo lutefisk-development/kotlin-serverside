@@ -1,4 +1,4 @@
-package org.example
+package basics
 
 const val PI = 3.14
 

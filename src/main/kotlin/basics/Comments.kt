@@ -1,4 +1,4 @@
-package org.example
+package basics
 
 fun main() {
 
